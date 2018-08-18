@@ -3,7 +3,7 @@ package ru.job4j.calculate;
 /**
 *Calculate.
 *
-*@author Nikolay Ilin (salence1309@gmail.com)
+*@author Nikolay Ilin (mailto:salence1309@gmail.com)
 *@version $Id$
 *since 0.1
 */
@@ -21,8 +21,8 @@ public class Calculate {
 
 /**
 * Method echo
-* @param name Nikolay Ilin.
-* @return Echo plus Nikolay Ilin.
+* @param name Your name.
+* @return Echo plus your name.
 */
 	public String echo(String name) {
         return "Echo, echo, echo : " + name;
