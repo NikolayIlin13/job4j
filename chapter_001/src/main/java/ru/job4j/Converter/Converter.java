@@ -11,7 +11,7 @@ public class Converter {
      * @return Евро.
      */
     public int rubleToEuro (int value) {
-        return value*79;
+        return  value*79;
 
     }
 
