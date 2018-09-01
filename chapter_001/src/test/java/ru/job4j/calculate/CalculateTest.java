@@ -20,7 +20,7 @@ public class CalculateTest {
         String input = "Nikolay Ilin";
         String expect = "Echo, echo, echo : Nikolay Ilin";
         Calculate calc = new Calculate();
-        String result = calc.echo(input);
+        String result =  calc.echo(input);
         assertThat(result, is(expect));
     }
 
