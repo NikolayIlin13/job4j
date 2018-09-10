@@ -20,7 +20,7 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         calc.subtract(1D, 1D);
         double result = calc.getResult();
-        double expected =0D;
+        double expected = 0D;
         assertThat(result, is(expected));
     }
 
